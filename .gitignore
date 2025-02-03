@@ -1,0 +1,72 @@
+# Python virtual environment
+# You can use 'venv' or '.env' as names for your virtual environment.
+venv/
+.env/
+osint-env/
+
+# Byte-compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# IDE or editor specific files
+.vscode/          # VSCode settings folder
+.idea/            # PyCharm settings folder
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Python distribution package files
+*.egg
+*.egg-info
+dist/
+build/
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller distribution
+*.manifest
+*.spec
+
+# pipenv
+Pipfile.lock
+
+# Python test/coverage reports
+.coverage
+.tox/
+.nox/
+*.coverage
+nosetests.xml
+coverage.xml
+*.cover
+
+# pytest
+*.pytest_cache/
+
+# Sphinx documentation build
+docs/_build/
+
+# mypy and pylint reports
+.mypy_cache/
+.pylint.d/
+
+# Ignore large model files and datasets (add more patterns as needed)
+*.h5
+*.pt
+*.pkl
+*.zip
+*.tar.gz
+*.tar
+
+# Ignore specific large files or directories that may cause issues
+osint-env/lib/python3.12/site-packages/playwright/driver/node
+
+# Ignore additional directories that may contain large files or unnecessary data
+draft3_vidtex/
